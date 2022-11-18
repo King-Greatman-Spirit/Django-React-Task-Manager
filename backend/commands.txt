@@ -1,0 +1,31 @@
+# DJANGO COMMANDS
+pip3 install --upgrade pip #pip upgrade
+python3.10 -m venv venv  #to install virtualenv wiht the latest python
+source venv/bin/activate #to activate virtualenv
+pip install -r requirements.txt
+
+pip install django djangorestframework django-cors-headers shell pipenv
+django-admin startproject backend #To create django project
+python manage.py startapp todo #To create app
+python manage.py makemigrations #To make/commit migrations
+python manage.py migrate #To run migrations
+python manage.py runserver #To run server
+python manage.py createsuperuser #To create admin user
+
+
+# REACT COMMANDS
+npx create-react-app frontend #install react app project
+npm install rectstrap bootstrap
+npm install axios
+npm install  #This installs the required dependencies.
+npm start
+
+
+# GENERAL COMMANDS
+rm -rf venv/ #to remove folder
+rm -rf src/* #to remove all directories in folder
+ls -le #display all folders wiht access
+cd .. #go back to the prev folders
+mkdir django=react-app #to create a folder
+touch notes.txt #to create a file
+ 
